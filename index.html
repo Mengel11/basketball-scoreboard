@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <img src="lakers.png" alt="El logo del equipo de basquetbol llamado Los Angeles Lakers" class="logo-img">
+                <p class="box-number" id="score-home">0</p>
+                <button onclick="home_increas_1()" class="increas-score">+1</button>
+                <button onclick="home_increas_2()" class="increas-score">+2</button>
+                <button onclick="home_increas_3()" class="increas-score">+3</button>
+            </div>
+            <div>
+                <div>
+                    <h3>TIME</h3>
+                    <p class="box-number"></p>
+                    <button id="play-btn" onclick="startTimer()">PLAY</button>
+                    <button id="pause-btn" onclick="pauseTimer()">PAUSE</button>
+                </div>
+                <div>
+                    <h3>QTR</h3>
+                    <p class="box-number" id="qtr-number">1</p>
+                    <button onclick="next_qtr()" id="qtr-btn">NEXT</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <img src="celtics.png" alt="El logo del equipo de basquetbol llamado Boston Celtics" class="logo-img">
+                <p class="box-number" id="score-guest">0</p>
+                <button onclick="guest_increas_1()" class="increas-score">+1</button>
+                <button onclick="guest_increas_2()" class="increas-score">+2</button>
+                <button onclick="guest_increas_3()" class="increas-score">+3</button>
+            </div>
+        </div>
+    
+        <script src="index.js"></script>
+    </body>
+</html>
