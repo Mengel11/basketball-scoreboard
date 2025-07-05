@@ -5,7 +5,7 @@ let scoreHomeEl = document.getElementById("score-home")
 let scoreGuestEl = document.getElementById("score-guest")
 let qtrNumberEl = document.getElementById("qtr-number")
 
-function home_increas_1 () {
+function home_increas_1() {
     scoreHome += 1
     scoreHomeEl.textContent = scoreHome 
 }
